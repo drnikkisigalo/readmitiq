@@ -1,0 +1,15 @@
+{
+  "model": "XGBoost Binary Classifier",
+  "version": "1.0",
+  "train_year": 2008,
+  "test_year": 2009,
+  "n_train": 27701,
+  "n_test": 13098,
+  "n_features": 18,
+  "train_readmit_pct": 15.05,
+  "test_readmit_pct": 8.74,
+  "auc_roc": 0.6562,
+  "avg_precision": 0.1516,
+  "brier_score": 0.2144,
+  "evaluated_at": "2026-04-09 04:36:37"
+}

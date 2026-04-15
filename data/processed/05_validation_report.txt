@@ -1,0 +1,22 @@
+ReadmitIQ — Model Validation Report
+Generated  : 2026-04-09 04:42:39
+============================================================
+
+INFERENCE PIPELINE CHECKS
+  Test 1 — Single row inference   : PASS
+  Test 2 — AUC reproducibility    : PASS
+  Test 3 — Edge case inputs        : PASS
+
+SUBGROUP AUC
+  Age: 85+                       : 0.6244 ⚠️
+  Race: Black                    : 0.6362 ⚠️
+  Age: 80-84                     : 0.6369 ⚠️
+  Race: Other                    : 0.6396 ⚠️
+  Sex: Male                      : 0.6543
+  Age: <65                       : 0.6575
+  Sex: Female                    : 0.6576
+  Race: White                    : 0.6577
+  Age: 65-69                     : 0.6613
+  Age: 70-74                     : 0.6638
+  Age: 75-79                     : 0.6908
+  Race: Hispanic                 : 0.7386

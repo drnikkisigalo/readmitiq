@@ -1,0 +1,27 @@
+ReadmitIQ — Data Validation Report
+Generated  : 2026-04-09 03:44:57
+Source     : CMS DE-SynPUF Sample 1 (2008-2010)
+============================================================
+
+BENEFICIARY SUMMARY FILE
+----------------------------------------
+  2008 rows            : 116,352
+  2009 rows            : 114,538
+  2010 rows            : 112,754
+  Combined rows        : 343,644
+  Columns              : 33
+  Unique bene IDs 2008 : 116,352
+
+INPATIENT CLAIMS FILE
+----------------------------------------
+  Total rows           : 66,773
+  Columns              : 81
+  Unique bene IDs      : 37,780
+  Admission date range : 2007-11-27 00:00:00 to 2010-12-30 00:00:00
+  Bad date records     : 0
+  Linkable bene IDs    : 37,780
+
+REQUIRED COLUMN CHECKS
+----------------------------------------
+  Beneficiary required columns : ALL PRESENT
+  Inpatient required columns   : ALL PRESENT
